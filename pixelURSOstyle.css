@@ -1,0 +1,134 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: url(img/bgHEADER.png);
+    padding: 25px 0;
+    border-bottom: 4px;
+    border-color: #00ff00;
+    border-style: solid;
+}
+
+header nav{
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header nav li{
+    display: inline;
+    margin: 0 0 0 80px;
+}
+
+header nav a{
+    text-transform: lowercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 10px 0 10px 0;
+    border-style: solid;
+    border-color: #111;
+    background: #00ff00;
+    padding: 6px;
+}
+
+header nav a:hover{
+    transition: 2s;
+    border-radius: 0 10px 0 10px;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #fff;
+    background: #ff0000;
+}
+
+main{
+    width: 100%;
+    height: 940px;
+    margin:0;
+    background: #000000;
+}
+
+.left{
+    margin: 0;
+    width: 20%;
+    height: 1px;
+    background: #00ff00;
+    float: left;
+}
+
+.left:hover{
+    transition:2s;
+    height:940px;
+}
+
+.right{
+    margin: 0;
+    width: 17%;
+    height: 1px;
+    background: #00ff00;
+    float: right;
+}
+
+.right:hover{
+    transition:2s;
+    height:940px;
+}
+
+.principal{
+    width: 60%;
+    height: 900px;
+    margin: 0 20%;
+    background: #0f0f0f;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.redessociais{
+    background: #00ff00;
+    float: right;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.transform{
+    display: inline;
+    opacity: 0.7;
+}
+
+.transform:hover{
+    transition: 1s;
+    opacity: 1;
+}
+
+.principal h2{
+    font-size: 64px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.principal p{
+    font-size: 16px;
+    margin: 64px 64px 0 64px;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bgFOOTER.png);
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
